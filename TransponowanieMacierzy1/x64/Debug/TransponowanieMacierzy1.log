@@ -1,0 +1,24 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\Karol\source\repos\TransponowanieMacierzy2\TransponowanieMacierzy1>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2017 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\bin\HostX86\x64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\Karol\source\repos\TransponowanieMacierzy2\TransponowanieMacierzy1\kernel.cu" 
+C:/Users/Karol/source/repos/TransponowanieMacierzy2/TransponowanieMacierzy1/kernel.cu(97): warning : transfer of control bypasses initialization of:
+C:/Users/Karol/source/repos/TransponowanieMacierzy2/TransponowanieMacierzy1/kernel.cu(104): warning : transfer of control bypasses initialization of:
+C:/Users/Karol/source/repos/TransponowanieMacierzy2/TransponowanieMacierzy1/kernel.cu(110): warning : transfer of control bypasses initialization of:
+C:/Users/Karol/source/repos/TransponowanieMacierzy2/TransponowanieMacierzy1/kernel.cu(117): warning : transfer of control bypasses initialization of:
+C:/Users/Karol/source/repos/TransponowanieMacierzy2/TransponowanieMacierzy1/kernel.cu(243): warning : specifiers after comma between declarations are nonstandard
+C:/Users/Karol/source/repos/TransponowanieMacierzy2/TransponowanieMacierzy1/kernel.cu(255): warning : specifiers after comma between declarations are nonstandard
+C:/Users/Karol/source/repos/TransponowanieMacierzy2/TransponowanieMacierzy1/kernel.cu(269): warning : specifiers after comma between declarations are nonstandard
+C:/Users/Karol/source/repos/TransponowanieMacierzy2/TransponowanieMacierzy1/kernel.cu(97): warning : transfer of control bypasses initialization of:
+C:/Users/Karol/source/repos/TransponowanieMacierzy2/TransponowanieMacierzy1/kernel.cu(104): warning : transfer of control bypasses initialization of:
+C:/Users/Karol/source/repos/TransponowanieMacierzy2/TransponowanieMacierzy1/kernel.cu(110): warning : transfer of control bypasses initialization of:
+C:/Users/Karol/source/repos/TransponowanieMacierzy2/TransponowanieMacierzy1/kernel.cu(117): warning : transfer of control bypasses initialization of:
+C:/Users/Karol/source/repos/TransponowanieMacierzy2/TransponowanieMacierzy1/kernel.cu(243): warning : specifiers after comma between declarations are nonstandard
+C:/Users/Karol/source/repos/TransponowanieMacierzy2/TransponowanieMacierzy1/kernel.cu(255): warning : specifiers after comma between declarations are nonstandard
+C:/Users/Karol/source/repos/TransponowanieMacierzy2/TransponowanieMacierzy1/kernel.cu(269): warning : specifiers after comma between declarations are nonstandard
+  kernel.cu
+C:/Users/Karol/source/repos/TransponowanieMacierzy2/TransponowanieMacierzy1/kernel.cu(41): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  TransponowanieMacierzy1.vcxproj -> C:\Users\Karol\source\repos\TransponowanieMacierzy2\x64\Debug\TransponowanieMacierzy1.exe
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart*.dll" "C:\Users\Karol\source\repos\TransponowanieMacierzy2\x64\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart32_90.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart64_90.dll
+  Liczba skopiowanych plików:         2.
